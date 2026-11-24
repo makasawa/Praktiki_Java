@@ -1,0 +1,19 @@
+<resources><string name="sets">Наборы слов</string>
+<string name="general">Основной</string>
+<string name="travel">Путешествия</string>
+<string name="add">Добавить слово</string>
+<string name="train">Тренировка</string>
+<string name="import_words">Импорт из файла</string>
+<string name="word">Слово</string>
+<string name="translation">Перевод</string>
+<string name="save">Сохранить</string>
+<string name="next">Следующая карточка</string>
+<string name="learned">Пометить выученным</string>
+<string name="empty">Введите текст</string>
+<string name="no_cards">Нет карточек для тренировки</string>
+<string name="correct">Верно</string>
+<string name="wrong">Пока не совпадает</string>
+<string name="failed">Не удалось прочитать или сохранить данные</string>
+<string name="unavailable">Выбор файла недоступен</string>
+<string name="format">В файле каждая строка должна иметь вид слово = перевод</string>
+<string name="imported">Добавлено карточек: %1$d</string><dimen name="spacing">16dp</dimen></resources>

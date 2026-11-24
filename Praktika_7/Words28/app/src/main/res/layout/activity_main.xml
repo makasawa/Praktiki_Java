@@ -1,0 +1,7 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent"><LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="@dimen/spacing">
+<TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:id="@+id/heading" android:textAppearance="@style/Heading" android:text="@string/sets"/>
+<Spinner android:layout_width="match_parent" android:layout_height="wrap_content" android:id="@+id/sets"/>
+<com.google.android.material.button.MaterialButton style="@style/Action" android:layout_width="match_parent" android:layout_height="wrap_content" android:id="@+id/add" android:text="@string/add"/>
+<com.google.android.material.button.MaterialButton style="@style/Action" android:layout_width="match_parent" android:layout_height="wrap_content" android:id="@+id/train" android:text="@string/train"/>
+<com.google.android.material.button.MaterialButton style="@style/Action" android:layout_width="match_parent" android:layout_height="wrap_content" android:id="@+id/importWords" android:text="@string/import_words"/>
+</LinearLayout></ScrollView>
