@@ -1,0 +1,7 @@
+<resources>
+<string name="length">Длина, м</string><string name="width">Ширина, м</string><string name="height">Высота, м</string>
+<string name="calculate">Рассчитать</string><string name="next">Далее</string><string name="back">Назад</string><string name="invalid">Введите положительное число</string>
+<string name="result">Площадь стен: %1$.2f %2$s\nКраски потребуется: %3$.2f %4$s</string>
+<string-array name="units"><item>м²</item><item>л</item></string-array>
+<string name="room">Контур комнаты</string><string name="bucket">Ведро краски</string><dimen name="pad">16dp</dimen><dimen name="image_height">80dp</dimen><color name="ink">#467C86</color>
+</resources>

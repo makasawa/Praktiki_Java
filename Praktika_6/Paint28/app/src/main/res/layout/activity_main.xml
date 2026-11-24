@@ -1,0 +1,12 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="match_parent"><LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="@dimen/pad">
+<TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/app_name" android:textAppearance="?android:attr/textAppearanceLarge"/>
+<ImageView android:layout_width="match_parent" android:layout_height="@dimen/image_height" android:src="@drawable/room" android:scaleType="centerInside" android:contentDescription="@string/room"/>
+<EditText android:layout_width="match_parent" android:layout_height="wrap_content" android:id="@+id/etlength" android:inputType="numberDecimal" android:singleLine="true" android:hint="@string/length"/>
+<EditText android:layout_width="match_parent" android:layout_height="wrap_content" android:id="@+id/etwidth" android:inputType="numberDecimal" android:singleLine="true" android:hint="@string/width"/>
+<EditText android:layout_width="match_parent" android:layout_height="wrap_content" android:id="@+id/etheight" android:inputType="numberDecimal" android:singleLine="true" android:hint="@string/height"/>
+<TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:id="@+id/tvResult" android:freezesText="true"/>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+<Button android:id="@+id/btnCalculate" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/calculate" app:layout_constraintStart_toStartOf="parent" app:layout_constraintEnd_toStartOf="@id/btnNext" app:layout_constraintTop_toTopOf="parent" app:layout_constraintHorizontal_chainStyle="spread_inside"/>
+<Button android:id="@+id/btnNext" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/next" app:layout_constraintStart_toEndOf="@id/btnCalculate" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent"/>
+</androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout></ScrollView>
